@@ -1,0 +1,311 @@
+:root {
+  background-color: #f3f2ee;
+}
+
+body {
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  background-color: #fff;
+  height: 59px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 94vw;
+  max-width: 1440px;
+}
+
+.searchContainer {
+  display: flex;
+}
+
+.logo img {
+  height: 34px;
+  width: 34px;
+  border-radius: 3px;
+}
+
+.search {
+  margin: 0px 7px;
+  background-color: #eef3f7;
+  border: none;
+  border-radius: 7px;
+  height: 34px;
+  width: 235px;
+  display: flex;
+  align-items: center;
+}
+
+.search img {
+  height: 11px;
+  width: 11px;
+  margin: 11px;
+  opacity: 0.9;
+}
+
+.search input {
+  background-color: #eef3f7;
+  border: none;
+}
+
+.menu {
+  height: 34px;
+  display: flex;
+}
+
+.menuItem {
+  filter: opacity(75%);
+  height: 35px;
+  width: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuItem:hover {
+  filter: opacity(100%);
+}
+
+.menuItem img {
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.menuItem span {
+  font-size: 10px;
+  font-family: "Ropa Sans", sans-serif;
+  display: inline;
+}
+
+.login {
+  height: 35px;
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login img {
+  height: 25px;
+  width: 25px;
+  margin-bottom: 2px;
+  border-radius: 13px;
+}
+
+.login span {
+  font-size: 10px;
+  font-family: "Ropa Sans", sans-serif;
+  display: inline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.abstract {
+  width: 94vw;
+  max-width: 1440px;
+  background-color: #FFF;
+  margin: 22px 3vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.cover {
+  height: 135px;
+  background-image: url("./assets/background_top.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.abstractAvatar {
+  height: 106px;
+  width: 106px;
+  margin: 0px 3vw;
+  border-radius: 58px;
+  position: absolute;
+  transform: translateY(50%);
+}
+
+.containerAbstract {
+  display: flex;
+  padding: 22px 3vw;
+  column-gap: 2%;
+  padding-top: 43px;
+}
+
+.column1 {
+  flex: 60%;
+}
+
+.column2 {
+  flex: 38%;
+  display: flex;
+  justify-content: center;
+}
+
+.column2 div {
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.column2 img {
+  height: 32px;
+  margin-right: 8px;
+  border-radius: 16px;
+}
+
+h1 {
+  font-family: 'Rambla', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: 'Rambla', sans-serif;
+  font-size: 14px;
+}
+
+h3 {
+  font-family: 'Rambla', sans-serif;
+  font-size: 12px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Rambla', sans-serif;
+  font-size: 11px;
+}
+
+a:link {
+  font-family: 'Rambla', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #0B65C2;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0B65C2;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btnContainer {
+  margin-top: 11px;
+}
+
+.btn {
+  height: 21px;
+  font-size: 11px;
+  font-family: 'Rambla', sans-serif;
+  font-weight: 700;
+  background-color: #FFF;
+  border: solid #666666 1px;
+  border-radius: 15px;
+  padding: 0px 16px;
+}
+
+.btn:hover {
+  background-color: #EEE;
+  box-shadow:  inset 0 0 1px #000000;
+}
+
+.blue {
+  color: #FFF;
+  background-color: #0B65C2;
+}
+
+.blue:hover {
+  background-color: #053f79
+}
+
+.curriculum {
+  border-radius: 4px;
+  width: 94vw;
+  max-width: 1440px;
+}
+
+.experience {
+  background-color: #FFF;
+  border-radius: 4px 4px 0 0;
+  padding: 16px 0vw 16px 3vw;
+  border-bottom: solid 1px #EBEBEB;
+}
+
+.experience h2 {
+  margin-bottom: 11px;
+}
+
+.experienceItem {
+  display: flex;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.itemCol1 img {
+  height: 35px;
+  width: 35px;
+  margin-right: 21px;
+}
+
+.itemCol2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 16px;
+}
+
+.itemBorder {
+  border-bottom: solid 1px #EBEBEB;
+}
+
+.gray {
+  color: #666666;
+}
+
+.itemDescription {
+  margin: 16px 0px;
+}
+
+.formation {
+  background-color: #FFF;
+  border-radius: 0 0 4px 4px;
+  padding: 16px 0vw 16px 3vw;
+  border-bottom: solid 1px #EBEBEB;
+}
+
+.formationContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.formation h2 {
+  margin-bottom: 11px;
+}
+
+.formationItem {
+  display: flex;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
