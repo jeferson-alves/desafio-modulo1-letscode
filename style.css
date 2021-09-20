@@ -2,7 +2,12 @@
   background-color: #f3f2ee;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
+  width: 100vw;
   line-height: 1.7;
   display: flex;
   flex-direction: column;
@@ -17,14 +22,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
+  box-sizing: border-box;
 }
 
 .containerHeader {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 94vw;
+  width: 100%;
   max-width: 1440px;
   min-width: 700px;
   padding: 0 3vw;
@@ -60,6 +65,10 @@ header {
 .search input {
   background-color: #eef3f7;
   border: none;
+}
+
+.containerRight {
+  display: flex;
 }
 
 .menu {
@@ -113,17 +122,19 @@ header {
 }
 
 main {
+  background-color: #F3F2EE;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-width: 700px;
+  padding: 0 3vw;
 }
 
 .abstract {
-  width: 94vw;
+  width: 100%;
   max-width: 1440px;
   background-color: #FFF;
-  margin: 22px 3vw;
+  margin: 22px 0px;
   display: flex;
   flex-direction: column;
   border-radius: 0px 0px 4px 4px;
@@ -228,7 +239,7 @@ a:hover {
   background-color: #FFF;
   border: solid #666666 1px;
   border-radius: 15px;
-  padding: 0px 16px;
+  padding: 0 3vw;
 }
 
 .btn:hover {
@@ -247,7 +258,7 @@ a:hover {
 
 .curriculum {
   border-radius: 4px;
-  width: 94vw;
+  width: 100%;
   max-width: 1440px;
   min-width: 700px;
 }
@@ -278,8 +289,6 @@ a:hover {
 .itemCol2 {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding-right: 16px;
 }
 
 .itemBorder {
@@ -291,7 +300,9 @@ a:hover {
 }
 
 .itemDescription {
+  box-sizing: border-box;
   margin: 16px 0px;
+  padding-right: 3vw;
 }
 
 .formation {
